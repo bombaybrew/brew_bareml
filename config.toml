@@ -1,0 +1,10 @@
+baseURL = "https://bareml.bombaybrew.in/"
+languageCode = "en-us"
+title = "Bare ML"
+disableKinds = ['taxonomy', 'taxonomyTerm']
+theme = "book"
+staticDir = ["static"]
+
+pygmentsStyle = "emacs"
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
