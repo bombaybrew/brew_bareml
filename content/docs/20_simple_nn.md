@@ -1,11 +1,12 @@
 ---
 title: "Building a simple Neural Network"
-date: 2020-02-08
+date: 2020-04-03
 ---
 
 # A Simple Neural Network
 ---
 Status: WIP
+
 
 ## Building [XNOR gate](https://en.wikipedia.org/wiki/XNOR_gate) using a simple neural network
 

@@ -1,9 +1,9 @@
 ---
 title: "What is Neural Network?"
-date: 2020-03-09
+date: 2020-04-02
 ---	
 
-## So what is a Neural Network?
+# So what is a Neural Network?
 ---
 
 It is a technique for building a computer program that can learn to perform some task by analyzing training data.
