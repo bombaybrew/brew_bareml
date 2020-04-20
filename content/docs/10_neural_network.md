@@ -1,6 +1,8 @@
 ---
 title: "What is Neural Network?"
 date: 2020-04-02
+weight: 10
+chapter: true
 ---	
 
 # So what is a Neural Network?

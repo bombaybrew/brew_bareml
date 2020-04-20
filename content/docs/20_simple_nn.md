@@ -1,6 +1,8 @@
 ---
 title: "Building a simple Neural Network"
 date: 2020-04-03
+weight: 20
+chapter: true
 ---
 
 # A Simple Neural Network

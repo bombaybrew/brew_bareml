@@ -1,11 +1,12 @@
 ---
 title: "Linear Algebra - Basics"
 date: 2020-02-01
+weight: 2
+chapter: true
 ---
 
 # Linear Algebra
 ---
-Status: WIP
 
 In this chapter, we are going to cover what is a Tensor.
 We will also see how to code a tensor in python.
