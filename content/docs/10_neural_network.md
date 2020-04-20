@@ -6,18 +6,18 @@ date: 2020-04-02
 # So what is a Neural Network?
 ---
 
-It is a technique for building a computer program that can learn to perform some task by analyzing training data.
+It is a technique for building a computer program that can learn to perform some tasks by analyzing training data.
 
-Artifical neural network was designed as a computational model based on our understanding of how human brain works.
-An artifical neural network consists of number of (few to millions) simple processing nodes called *perceptrons* which are interconnected.
+Artificial neural network was designed as a computational model based on our understanding of how the human brain works.
+An artificial neural network consists of a number of (few to millions) simple processing nodes called *perceptrons* which are interconnected.
 
-Lets have a quick look at a biological neuron before we take up perceptron (artifical neuron).
+Let's have a quick look at a biological neuron before we take up the perceptron (artificial neuron).
 
 ## Bilogical Neuron
 
 ![Bilogical Neuron](/images/c_00/biological_neuron.svg)
 
-Biological neuron is the most basic computational unit of human brain.
+Biological neuron is the most basic computational unit of the human brain.
 An average human brain has approx 86 billion neurons. Each neuron may be connected to up to 10,000 other neurons.
 
 Each neuron consists of
@@ -26,13 +26,13 @@ Each neuron consists of
 
 ## Perceptron
 
-An artificial neuron mimics computational model of a biological neuron. It is also the simplest neural network possible.
+An artificial neuron mimics the computational model of a biological neuron. It is also the simplest neural network possible.
 
 ![Perceptron](/images/c_01/perceptron.png)
 
 * A perceptron takes several inputs x1, x2, ... ,xn and generates a single output.
 * The inputs are multiplied by the weights w1, w2, ... ,wn and added to create a weighted sum.
-* A bias is added to weighted sum.
+* A bias is added to the weighted sum.
 * An `activation function` is applied to the weighted sum to produce output for perceptron.
 
 ```python
@@ -137,18 +137,18 @@ Our artificial neural network is nothing but a multi-layer perceptron.
 
 ## A Neural Network
 
-A neural network is stack of layered neurons which feed output of first layer to the next and so on.
+A neural network is a stack of layered neurons that feed the output of first layer to the next and so on.
 
 ![Multi-Layer perceptron](/images/c_01/neural_network_simple.png)
 
 So a neural network has
 
 1. **Input Layer:** The first layer of the network. This will correspond to number of inputs we have. Nothing much happens at this layer, the inputs are simply passed on to the next set of Hidden Layers.
-2. **Hidden Layer:** This is where all the learning takes place. Learning process is nothing but constantly adjusting the weight values to see there is an improvement in the output.
-Number of hidden layers and number of neurons / nodes per layer is something we will have to experiment with.\
+2. **Hidden Layer:** This is where all the learning takes place. The learning process is nothing but constantly adjusting the weight values to see there is an improvement in the output.
+Number of hidden layers and the number of neurons/nodes per layer is something we will have to experiment with.\
 If the hidden layer is too small our network will not learn anything useful resulting in *underfitting*. If the hidden layer is too large we would end up doing unnecessary calculations and *overfitting* the data.
 
-3. **Output Layer:** The last layer of the network which is used to give predicted output. Number of neurons in this layer will depend on number of things being predicted.
+3. **Output Layer:** The last layer of the network which is used to give predicted output. The number of neurons in this layer will depend on the number of things being predicted.
 
 ----
 ## Reference:

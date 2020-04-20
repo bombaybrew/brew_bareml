@@ -7,14 +7,14 @@ date: 2020-02-01
 ---
 Status: WIP
 
-In this chapter we are going to cover what is a Tensor.
+In this chapter, we are going to cover what is a Tensor.
 We will also see how to code a tensor in python.
 
 ## Why is this important?
 
-For machine learning input data is represented as one or multi dimentional Tensor. Knowing how to efficiently transform and operate on this data becomes important.
+For machine learning input data is represented as one or multidimensional Tensor. Knowing how to efficiently transform and operate on this data becomes important.
 
-Simple understanding of these operations will make it easier of us to read through source code of various ML libraries.
+A simple understanding of these operations will make it easier for us to read through the source code of various ML libraries.
 
 Let's understand Scalar, Vector & Matrix
 
@@ -131,7 +131,6 @@ A Transpose
 ## Reference:
 
 * [Linear Algebra - Numpy](https://docs.scipy.org/doc/numpy/reference/routines.linalg.html)
-
 
 
 
